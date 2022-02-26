@@ -4,9 +4,22 @@ body {
 
 .fileupload{
     padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 20px;
 }
 
 .Images img{
-    width:200px;
-    height:180px;
+    width:300px;
+    height:300px;
 }
+
