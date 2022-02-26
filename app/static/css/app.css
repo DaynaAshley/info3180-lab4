@@ -5,3 +5,8 @@ body {
 .fileupload{
     padding: 20px;
 }
+
+.Images img{
+    width:200px;
+    height:180px;
+}
